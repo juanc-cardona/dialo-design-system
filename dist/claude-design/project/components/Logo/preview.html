@@ -1,0 +1,24 @@
+<!-- @dsCard group="Marca" height=300 -->
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>preview</title>
+<style>body{margin:0;padding:24px;min-height:100%} .pv-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center} .pv-col{display:flex;flex-direction:column;gap:16px;max-width:560px}</style>
+</head>
+<body class="dl-root">
+<div class="pv-row" style="gap:16px">
+  <div id="a" style="padding:24px;background:var(--white);border:1px solid var(--border-subtle);border-radius:var(--radius-lg)"></div>
+  <div id="b" style="padding:24px;background:var(--dialo);border-radius:var(--radius-lg)"></div>
+  <div id="c" style="padding:24px;background:var(--black);border-radius:var(--radius-lg)"></div>
+  <div id="d" style="padding:24px;background:var(--white);border:1px solid var(--border-subtle);border-radius:var(--radius-lg)"></div>
+  <div id="e" style="padding:24px;background:var(--white);border:1px solid var(--border-subtle);border-radius:var(--radius-lg)"></div>
+</div>
+<script>
+  var D = window.Dialo, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById("a")).render(h(D.Logo,{height:36}));
+  ReactDOM.createRoot(document.getElementById("b")).render(h(D.Logo,{color:"negative",height:36}));
+  ReactDOM.createRoot(document.getElementById("c")).render(h(D.Logo,{color:"mono-white",height:36}));
+  ReactDOM.createRoot(document.getElementById("d")).render(h(D.Logo,{version:"horizontal-endorsed",color:"positive",height:72}));
+  ReactDOM.createRoot(document.getElementById("e")).render(h(D.Logo,{version:"icon",height:56}));
+</script>
+</body>
+</html>

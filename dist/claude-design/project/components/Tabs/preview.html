@@ -1,0 +1,14 @@
+<!-- @dsCard group="Contenido" height=90 -->
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>preview</title>
+<style>body{margin:0;padding:24px;min-height:100%} .pv-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center} .pv-col{display:flex;flex-direction:column;gap:16px;max-width:560px}</style>
+</head>
+<body class="dl-root">
+<div id="a"></div>
+<script>
+  var D = window.Dialo, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById("a")).render(h(D.Tabs,{items:[{value:"c",label:"Conversaciones"},{value:"p",label:"Pedidos"},{value:"g",label:"Pagos"},{value:"a",label:"Analytics"}]}));
+</script>
+</body>
+</html>

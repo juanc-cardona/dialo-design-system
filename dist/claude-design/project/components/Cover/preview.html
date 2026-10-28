@@ -1,0 +1,52 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Dialo</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg-canvas); color:var(--text-heading); font-family:var(--font-brand); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .slab { fill:var(--action-primary); }
+  .deep { fill:var(--dialo-900); }
+  .tint { fill:var(--bg-selected); }
+  .band { fill:none; stroke:var(--accent); stroke-width:6; stroke-linecap:round; }
+  .pad { fill:var(--accent); }
+  .chip { fill:none; stroke:var(--border-brand); stroke-width:2; }
+  .r-xl { rx:var(--radius-xl); } .r-lg { rx:var(--radius-lg); }
+  .words { position:absolute; left:var(--space-6); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-size:120px; line-height:.92; font-weight:600; letter-spacing:-.02em; color:var(--text-heading); }
+  .tag { margin:var(--space-3) 0 0 6px; font-size:14px; line-height:20px; font-weight:500; color:var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      action-primary 176×176 (the brand slab: Dialo blue, white on the brand surface) · dialo-900 136×232 bled off the right edge · bg-selected 112×72 (the tint) — about a third of 960×288
+  arrangement one squircle slab with satellites, bottoms on one line space-6 above the edge, space-4 gutters
+  pattern     literal motif, the headset: a continuous accent arc hugging the slab's top and sides with two pads, from the README "the headset stays magenta in every version"; plus three outlined quick-reply pills in border-brand
+  scales      sides in space-2 multiples; gutters space-4; corners radius-xl (slab), radius-lg (satellites); pills rx half of space-6; band stroke ≈ 2.2 % of the slab like the headset
+-->
+<rect class="deep r-lg" x="344" y="-16" width="152" height="280" rx="16"/>
+<rect class="tint r-lg" x="216" y="192" width="112" height="72" rx="16"/>
+<rect class="slab r-xl" x="24" y="88" width="176" height="176" rx="24"/>
+<path class="band" d="M 16 196 L 16 120 A 40 40 0 0 1 56 80 L 168 80 A 40 40 0 0 1 208 120 L 208 196"/>
+<rect class="pad" x="6" y="148" width="20" height="56" rx="10"/>
+<rect class="pad" x="198" y="148" width="20" height="56" rx="10"/>
+<rect class="chip" x="216" y="96" width="72" height="24" rx="12"/>
+<rect class="chip" x="216" y="136" width="104" height="24" rx="12"/>
+<rect class="chip" x="296" y="96" width="32" height="24" rx="12"/>
+</svg>
+</div>
+<div class="words">
+  <p class="name">Dialo</p>
+  <p class="tag">El agente que convierte conversaciones en resultados.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!-- @dsCard group="Contenido" height=140 -->
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>preview</title>
+<style>body{margin:0;padding:24px;min-height:100%} .pv-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center} .pv-col{display:flex;flex-direction:column;gap:16px;max-width:560px}</style>
+</head>
+<body class="dl-root">
+<div id="a" class="dl-grid" style="--dl-min:180px"></div>
+<script>
+  var D = window.Dialo, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById("a")).render(h(React.Fragment,null,h(D.Stat,{label:"Ventas cobradas",value:"$ 42,8 M",delta:"+18 %",context:"vs. mes anterior"}),h(D.Stat,{label:"Conversaciones",value:"12.406",delta:"+9 %",context:"últimos 30 días"}),h(D.Stat,{label:"Conversión",value:"31 %",delta:"−2 pts",deltaTone:"danger",context:"vs. mes anterior"})));
+</script>
+</body>
+</html>

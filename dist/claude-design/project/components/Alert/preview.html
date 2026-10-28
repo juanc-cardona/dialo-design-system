@@ -1,0 +1,14 @@
+<!-- @dsCard group="Estado" height=260 -->
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>preview</title>
+<style>body{margin:0;padding:24px;min-height:100%} .pv-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center} .pv-col{display:flex;flex-direction:column;gap:16px;max-width:560px}</style>
+</head>
+<body class="dl-root">
+<div id="a" class="pv-col"></div>
+<script>
+  var D = window.Dialo, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById("a")).render(h(React.Fragment,null,h(D.Alert,{title:"Catálogo sincronizado"},"248 productos con precio e inventario de hoy."),h(D.Alert,{tone:"success",title:"Pago recibido"},"$ 486.000 del pedido 4821."),h(D.Alert,{tone:"warning",title:"Stock bajo"},"Quedan 12 unidades de jugo de 1 L."),h(D.Alert,{tone:"danger",title:"No pudimos conectar con el ERP"},"Revisa las credenciales y vuelve a intentarlo.")));
+</script>
+</body>
+</html>

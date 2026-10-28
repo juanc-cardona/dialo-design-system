@@ -1,0 +1,302 @@
+{
+  "unit": {
+    "x": 84,
+    "note": "x = diámetro del ojo del icono, en unidades del archivo maestro"
+  },
+  "logos": [
+    {
+      "name": "dialo-icon-positive",
+      "master": "assets/logo/master/Marca_Dialo-01.svg",
+      "version": "icon",
+      "color": "positive",
+      "svg": "assets/logo/svg/dialo-icon-positive.svg",
+      "framed": "assets/logo/svg-framed/dialo-icon-positive.svg",
+      "viewBox": "247.57 288.3 904.86 823.39",
+      "aspectRatio": 1.1,
+      "background": "#FFFFFF",
+      "framedBackground": null,
+      "clearSpace": {
+        "units": 84,
+        "rule": "1x",
+        "ofHeight": 0.102
+      },
+      "minSize": {
+        "px": 32,
+        "mm": 8
+      }
+    },
+    {
+      "name": "dialo-icon-mono-black",
+      "master": "assets/logo/master/Marca_Dialo-02.svg",
+      "version": "icon",
+      "color": "mono-black",
+      "svg": "assets/logo/svg/dialo-icon-mono-black.svg",
+      "framed": "assets/logo/svg-framed/dialo-icon-mono-black.svg",
+      "viewBox": "247.57 288.3 904.86 823.39",
+      "aspectRatio": 1.1,
+      "background": "#FFFFFF",
+      "framedBackground": null,
+      "clearSpace": {
+        "units": 84,
+        "rule": "1x",
+        "ofHeight": 0.102
+      },
+      "minSize": {
+        "px": 32,
+        "mm": 8
+      }
+    },
+    {
+      "name": "dialo-horizontal-endorsed-mono-black",
+      "master": "assets/logo/master/Marca_Dialo-03.svg",
+      "version": "horizontal-endorsed",
+      "color": "mono-black",
+      "svg": "assets/logo/svg/dialo-horizontal-endorsed-mono-black.svg",
+      "framed": "assets/logo/svg-framed/dialo-horizontal-endorsed-mono-black.svg",
+      "viewBox": "371 177.57 3770.66 1276.48",
+      "aspectRatio": 2.95,
+      "background": "#FFFFFF",
+      "framedBackground": null,
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.132
+      },
+      "minSize": {
+        "px": 200,
+        "mm": 45
+      }
+    },
+    {
+      "name": "dialo-horizontal-endorsed-mono-white",
+      "master": "assets/logo/master/Marca_Dialo-04.svg",
+      "version": "horizontal-endorsed",
+      "color": "mono-white",
+      "svg": "assets/logo/svg/dialo-horizontal-endorsed-mono-white.svg",
+      "framed": "assets/logo/svg-framed/dialo-horizontal-endorsed-mono-white.svg",
+      "viewBox": "371 177.57 3770.66 1276.48",
+      "aspectRatio": 2.95,
+      "background": "#000000",
+      "framedBackground": "#000000",
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.132
+      },
+      "minSize": {
+        "px": 200,
+        "mm": 45
+      }
+    },
+    {
+      "name": "dialo-horizontal-endorsed-positive",
+      "master": "assets/logo/master/Marca_Dialo-05.svg",
+      "version": "horizontal-endorsed",
+      "color": "positive",
+      "svg": "assets/logo/svg/dialo-horizontal-endorsed-positive.svg",
+      "framed": "assets/logo/svg-framed/dialo-horizontal-endorsed-positive.svg",
+      "viewBox": "371 177.57 3770.65 1276.48",
+      "aspectRatio": 2.95,
+      "background": "#FFFFFF",
+      "framedBackground": null,
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.132
+      },
+      "minSize": {
+        "px": 200,
+        "mm": 45
+      }
+    },
+    {
+      "name": "dialo-horizontal-endorsed-negative",
+      "master": "assets/logo/master/Marca_Dialo-06.svg",
+      "version": "horizontal-endorsed",
+      "color": "negative",
+      "svg": "assets/logo/svg/dialo-horizontal-endorsed-negative.svg",
+      "framed": "assets/logo/svg-framed/dialo-horizontal-endorsed-negative.svg",
+      "viewBox": "371 177.57 3770.65 1276.48",
+      "aspectRatio": 2.95,
+      "background": "#0C4088",
+      "framedBackground": "#0C4088",
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.132
+      },
+      "minSize": {
+        "px": 200,
+        "mm": 45
+      }
+    },
+    {
+      "name": "dialo-horizontal-mono-black",
+      "master": "assets/logo/master/Marca_Dialo-07.svg",
+      "version": "horizontal",
+      "color": "mono-black",
+      "svg": "assets/logo/svg/dialo-horizontal-mono-black.svg",
+      "framed": "assets/logo/svg-framed/dialo-horizontal-mono-black.svg",
+      "viewBox": "371 348.57 3770.66 891.66",
+      "aspectRatio": 4.23,
+      "background": "#FFFFFF",
+      "framedBackground": null,
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.188
+      },
+      "minSize": {
+        "px": 120,
+        "mm": 28
+      }
+    },
+    {
+      "name": "dialo-horizontal-mono-white",
+      "master": "assets/logo/master/Marca_Dialo-08.svg",
+      "version": "horizontal",
+      "color": "mono-white",
+      "svg": "assets/logo/svg/dialo-horizontal-mono-white.svg",
+      "framed": "assets/logo/svg-framed/dialo-horizontal-mono-white.svg",
+      "viewBox": "371 356.57 3770.66 891.66",
+      "aspectRatio": 4.23,
+      "background": "#000000",
+      "framedBackground": "#000000",
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.188
+      },
+      "minSize": {
+        "px": 120,
+        "mm": 28
+      }
+    },
+    {
+      "name": "dialo-horizontal-positive",
+      "master": "assets/logo/master/Marca_Dialo-09.svg",
+      "version": "horizontal",
+      "color": "positive",
+      "svg": "assets/logo/svg/dialo-horizontal-positive.svg",
+      "framed": "assets/logo/svg-framed/dialo-horizontal-positive.svg",
+      "viewBox": "371 348.57 3770.65 891.66",
+      "aspectRatio": 4.23,
+      "background": "#FFFFFF",
+      "framedBackground": null,
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.188
+      },
+      "minSize": {
+        "px": 120,
+        "mm": 28
+      }
+    },
+    {
+      "name": "dialo-horizontal-negative",
+      "master": "assets/logo/master/Marca_Dialo-10.svg",
+      "version": "horizontal",
+      "color": "negative",
+      "svg": "assets/logo/svg/dialo-horizontal-negative.svg",
+      "framed": "assets/logo/svg-framed/dialo-horizontal-negative.svg",
+      "viewBox": "371 356.57 3770.65 891.66",
+      "aspectRatio": 4.23,
+      "background": "#0C4088",
+      "framedBackground": "#0C4088",
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.188
+      },
+      "minSize": {
+        "px": 120,
+        "mm": 28
+      }
+    },
+    {
+      "name": "dialo-vertical-positive",
+      "master": "assets/logo/master/Marca_Dialo-11.svg",
+      "version": "vertical",
+      "color": "positive",
+      "svg": "assets/logo/svg/dialo-vertical-positive.svg",
+      "framed": "assets/logo/svg-framed/dialo-vertical-positive.svg",
+      "viewBox": "510.3 505.92 1492.38 1483.1",
+      "aspectRatio": 1.01,
+      "background": "#FFFFFF",
+      "framedBackground": null,
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.113
+      },
+      "minSize": {
+        "px": 80,
+        "mm": 20
+      }
+    },
+    {
+      "name": "dialo-vertical-mono-black",
+      "master": "assets/logo/master/Marca_Dialo-12.svg",
+      "version": "vertical",
+      "color": "mono-black",
+      "svg": "assets/logo/svg/dialo-vertical-mono-black.svg",
+      "framed": "assets/logo/svg-framed/dialo-vertical-mono-black.svg",
+      "viewBox": "510.3 505.92 1492.38 1483.1",
+      "aspectRatio": 1.01,
+      "background": "#FFFFFF",
+      "framedBackground": null,
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.113
+      },
+      "minSize": {
+        "px": 80,
+        "mm": 20
+      }
+    },
+    {
+      "name": "dialo-vertical-negative",
+      "master": "assets/logo/master/Marca_Dialo-13.svg",
+      "version": "vertical",
+      "color": "negative",
+      "svg": "assets/logo/svg/dialo-vertical-negative.svg",
+      "framed": "assets/logo/svg-framed/dialo-vertical-negative.svg",
+      "viewBox": "510.3 505.92 1492.38 1483.1",
+      "aspectRatio": 1.01,
+      "background": "#0C4088",
+      "framedBackground": "#0C4088",
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.113
+      },
+      "minSize": {
+        "px": 80,
+        "mm": 20
+      }
+    },
+    {
+      "name": "dialo-vertical-mono-white",
+      "master": "assets/logo/master/Marca_Dialo-14.svg",
+      "version": "vertical",
+      "color": "mono-white",
+      "svg": "assets/logo/svg/dialo-vertical-mono-white.svg",
+      "framed": "assets/logo/svg-framed/dialo-vertical-mono-white.svg",
+      "viewBox": "510.3 505.92 1492.38 1483.1",
+      "aspectRatio": 1.01,
+      "background": "#000000",
+      "framedBackground": "#000000",
+      "clearSpace": {
+        "units": 168,
+        "rule": "2x",
+        "ofHeight": 0.113
+      },
+      "minSize": {
+        "px": 80,
+        "mm": 20
+      }
+    }
+  ]
+}

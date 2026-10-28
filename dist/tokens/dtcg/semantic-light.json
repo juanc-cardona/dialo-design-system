@@ -1,0 +1,166 @@
+{
+  "semantic": {
+    "light": {
+      "bg-canvas": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "bg-surface": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.offwhite}"
+      },
+      "bg-raised": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "bg-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.50}"
+      },
+      "bg-hover": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.50}"
+      },
+      "bg-selected": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.100}"
+      },
+      "bg-brand": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "text-primary": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.black}"
+      },
+      "text-secondary": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.graphite}"
+      },
+      "text-muted": {
+        "$type": "color",
+        "$value": "{primitive.color.neutral.500}"
+      },
+      "text-disabled": {
+        "$type": "color",
+        "$value": "{primitive.color.neutral.400}"
+      },
+      "text-heading": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "text-link": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "text-on-brand": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.neutral.100}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{primitive.color.neutral.200}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{primitive.color.neutral.400}"
+      },
+      "border-brand": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.300}"
+      },
+      "action-primary": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "action-primary-hover": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "action-primary-pressed": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.900}"
+      },
+      "on-action-primary": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "on-action-primary-accent": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}",
+        "$description": "Icono de acento dentro del botón primario azul: blanco, porque el magenta no va sobre azul"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.pulse}",
+        "$description": "Magenta: solo gráficos, indicadores y texto ≥ 24 px. Máx. 10 % de la pieza."
+      },
+      "accent-text": {
+        "$type": "color",
+        "$value": "{primitive.color.pulse.700}"
+      },
+      "accent-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.pulse.50}"
+      },
+      "focus-ring": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "status-info": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "status-info-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.50}"
+      },
+      "status-success": {
+        "$type": "color",
+        "$value": "{primitive.color.status.success}"
+      },
+      "status-success-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.status.success-subtle}"
+      },
+      "status-warning": {
+        "$type": "color",
+        "$value": "{primitive.color.status.warning}"
+      },
+      "status-warning-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.status.warning-subtle}"
+      },
+      "status-danger": {
+        "$type": "color",
+        "$value": "{primitive.color.status.danger}"
+      },
+      "status-danger-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.status.danger-subtle}"
+      },
+      "bubble-agent": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.offwhite}",
+        "$description": "Burbuja de Dialo (agente)"
+      },
+      "on-bubble-agent": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.black}"
+      },
+      "bubble-customer": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}",
+        "$description": "Burbuja del cliente"
+      },
+      "on-bubble-customer": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "artifact": "https://claude.ai/artifact/KQz8JFTA9uotkxCNNkv8pB",
+  "assets": {
+    "Logos/dialo-horizontal-positive.svg": { "src": "assets/logo/svg/dialo-horizontal-positive.svg", "blob": "4202784e0af3c4d2d88c5cb1ead080f6", "size": 4031, "type": "image/svg+xml" },
+    "Logos/dialo-horizontal-negative.svg": { "src": "assets/logo/svg/dialo-horizontal-negative.svg", "blob": "50e4ed40d7a8df1953559f468ce8b3a2", "size": 3988, "type": "image/svg+xml" },
+    "Logos/dialo-horizontal-mono-black.svg": { "src": "assets/logo/svg/dialo-horizontal-mono-black.svg", "blob": "dc3c9c1a501b44a397ef6ff4354e9d51", "size": 3941, "type": "image/svg+xml" },
+    "Logos/dialo-horizontal-mono-white.svg": { "src": "assets/logo/svg/dialo-horizontal-mono-white.svg", "blob": "f412f88a6de2d1a05ad14cccee9507bb", "size": 3943, "type": "image/svg+xml" },
+    "Logos/dialo-horizontal-endorsed-positive.svg": { "src": "assets/logo/svg/dialo-horizontal-endorsed-positive.svg", "blob": "9b2da28d281088704ef1235c63016791", "size": 17616, "type": "image/svg+xml" },
+    "Logos/dialo-horizontal-endorsed-negative.svg": { "src": "assets/logo/svg/dialo-horizontal-endorsed-negative.svg", "blob": "01f589beaedd85b642291d2042117a2b", "size": 17577, "type": "image/svg+xml" },
+    "Logos/dialo-horizontal-endorsed-mono-black.svg": { "src": "assets/logo/svg/dialo-horizontal-endorsed-mono-black.svg", "blob": "2b86aefcc491a569ada65c0ab05de258", "size": 17411, "type": "image/svg+xml" },
+    "Logos/dialo-horizontal-endorsed-mono-white.svg": { "src": "assets/logo/svg/dialo-horizontal-endorsed-mono-white.svg", "blob": "aeb2f7384894f9474a110a9e8bd4b0f8", "size": 17534, "type": "image/svg+xml" },
+    "Logos/dialo-vertical-positive.svg": { "src": "assets/logo/svg/dialo-vertical-positive.svg", "blob": "9aa57a57ce98df87cac75a340efdc9e6", "size": 4125, "type": "image/svg+xml" },
+    "Logos/dialo-vertical-negative.svg": { "src": "assets/logo/svg/dialo-vertical-negative.svg", "blob": "b539e28bbd30fd029c142ffbcf840bbd", "size": 4105, "type": "image/svg+xml" },
+    "Logos/dialo-vertical-mono-black.svg": { "src": "assets/logo/svg/dialo-vertical-mono-black.svg", "blob": "ec7f5b5d1703fc3fac0ff3ae04258dfb", "size": 3995, "type": "image/svg+xml" },
+    "Logos/dialo-vertical-mono-white.svg": { "src": "assets/logo/svg/dialo-vertical-mono-white.svg", "blob": "f5801f92e94191d4be5f42f2ea702036", "size": 4060, "type": "image/svg+xml" },
+    "Logos/dialo-icon-positive.svg": { "src": "assets/logo/svg/dialo-icon-positive.svg", "blob": "9016ae587965771b7dea5b7a535328a9", "size": 1441, "type": "image/svg+xml" },
+    "Logos/dialo-icon-mono-black.svg": { "src": "assets/logo/svg/dialo-icon-mono-black.svg", "blob": "f6b397cec46871198b6e52b119765154", "size": 1426, "type": "image/svg+xml" },
+    "Favicon/favicon.svg": { "src": "assets/favicon/favicon.svg", "blob": "927ee4ef9dae97ed2748bbde77cb9611", "size": 1385, "type": "image/svg+xml" },
+    "Favicon/icon-512.png": { "src": "assets/favicon/icon-512.png", "blob": "beab589b79ae3e185ce5d22b48bbab86", "size": 18608, "type": "image/png" },
+    "Favicon/apple-touch-icon.png": { "src": "assets/favicon/apple-touch-icon.png", "blob": "64b90e8fbad44a4acb5590035197c9bc", "size": 5548, "type": "image/png" },
+    "Personaje/dialo-character.jpg": { "src": "assets/character/dialo-character-720.jpg", "blob": "bc50ca493814621949a061f601085634", "size": 62891, "type": "image/jpeg" }
+  }
+}

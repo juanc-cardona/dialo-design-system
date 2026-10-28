@@ -1,0 +1,14 @@
+<!-- @dsCard group="Conversación" height=260 -->
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>preview</title>
+<style>body{margin:0;padding:24px;min-height:100%} .pv-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center} .pv-col{display:flex;flex-direction:column;gap:16px;max-width:560px}</style>
+</head>
+<body class="dl-root">
+<div id="a" style="max-width:520px"></div>
+<script>
+  var D = window.Dialo, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById("a")).render(h(D.Thread,null,h(D.Message,{time:"09:12"},"Hola, Marta. Te quedan 3 cajas de agua de 600 ml. ¿Repetimos el pedido de la semana pasada?"),h(D.Message,{from:"customer",time:"09:13"},"Sí, y súmale 2 cajas de jugo."),h(D.Message,null,"Listo, ya quedó apuntado. Llega mañana antes de las 10.")));
+</script>
+</body>
+</html>

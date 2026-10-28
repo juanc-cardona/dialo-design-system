@@ -1,0 +1,14 @@
+<!-- @dsCard group="Formularios" height=260 -->
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>preview</title>
+<style>body{margin:0;padding:24px;min-height:100%} .pv-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center} .pv-col{display:flex;flex-direction:column;gap:16px;max-width:560px}</style>
+</head>
+<body class="dl-root">
+<div id="a" class="pv-col" style="max-width:420px"></div>
+<script>
+  var D = window.Dialo, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById("a")).render(h(React.Fragment,null,h(D.Field,{label:"Nombre del negocio",hint:"Así te verán tus clientes en WhatsApp."},h(D.Input,{placeholder:"Tienda La Esquina"})),h(D.Field,{label:"Teléfono",error:"Escribe un número de 10 dígitos."},h(D.Input,{defaultValue:"300 12"})),h(D.Field,{label:"Canal"},h(D.Select,null,h("option",null,"WhatsApp"),h("option",null,"Web"),h("option",null,"App Dialo")))));
+</script>
+</body>
+</html>

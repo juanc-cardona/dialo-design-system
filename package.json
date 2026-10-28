@@ -1,0 +1,36 @@
+{
+  "name": "@axoncore/dialo-design-system",
+  "version": "1.0.0",
+  "description": "Sistema de diseño de Dialo (AxonCore): tokens, CSS, Tailwind, React, logos y recursos para Claude Design.",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "files": ["dist", "assets", "fonts", "tokens", "docs"],
+  "exports": {
+    ".": "./dist/css/dialo.css",
+    "./css": "./dist/css/dialo.css",
+    "./css/*": "./dist/css/*",
+    "./tokens": { "import": "./dist/tokens/tokens.mjs", "require": "./dist/tokens/tokens.cjs" },
+    "./tokens.json": "./dist/tokens/tokens.json",
+    "./tailwind": "./dist/tailwind/preset.cjs",
+    "./tailwind/*": "./dist/tailwind/*",
+    "./react": { "types": "./dist/react/index.d.ts", "import": "./dist/react/index.mjs" },
+    "./logos/*": "./assets/logo/svg/*",
+    "./assets/*": "./assets/*",
+    "./fonts/*": "./dist/fonts/*"
+  },
+  "sideEffects": ["*.css"],
+  "peerDependencies": { "react": ">=17" },
+  "peerDependenciesMeta": { "react": { "optional": true } },
+  "scripts": {
+    "logos": "node scripts/build-logos.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-contrast.mjs && node scripts/check-brand.mjs",
+    "showcase": "node scripts/showcase.mjs",
+    "all": "npm run logos && npm run build && npm run check && npm run showcase"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  },
+  "engines": { "node": ">=18" }
+}

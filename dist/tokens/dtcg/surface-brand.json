@@ -1,0 +1,166 @@
+{
+  "semantic": {
+    "brand": {
+      "$description": "Superficie de marca (fondo azul Dialo): portadas, héroes, páginas de sección. Se activa con data-surface=\"brand\".",
+      "bg-canvas": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "bg-surface": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "bg-raised": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "bg-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "bg-hover": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "bg-selected": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.900}"
+      },
+      "bg-brand": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "text-primary": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "text-secondary": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.100}"
+      },
+      "text-muted": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.300}"
+      },
+      "text-disabled": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.400}"
+      },
+      "text-heading": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "text-link": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "text-on-brand": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.400}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.300}"
+      },
+      "border-brand": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.300}"
+      },
+      "action-primary": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "action-primary-hover": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.50}"
+      },
+      "action-primary-pressed": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.100}"
+      },
+      "on-action-primary": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.dialo}"
+      },
+      "on-action-primary-accent": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.pulse}",
+        "$description": "Icono magenta de la acción principal sobre el botón blanco"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}",
+        "$description": "Sobre azul, el magenta no se usa como elemento aislado (2,6:1)"
+      },
+      "accent-text": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "accent-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "focus-ring": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "status-info": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "status-info-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "status-success": {
+        "$type": "color",
+        "$value": "{primitive.color.status.success-subtle}",
+        "$description": "Sobre azul, el estado usa su tinte claro"
+      },
+      "status-success-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "status-warning": {
+        "$type": "color",
+        "$value": "{primitive.color.status.warning-subtle}"
+      },
+      "status-warning-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "status-danger": {
+        "$type": "color",
+        "$value": "{primitive.color.status.danger-subtle}"
+      },
+      "status-danger-subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "bubble-agent": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      },
+      "on-bubble-agent": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.black}"
+      },
+      "bubble-customer": {
+        "$type": "color",
+        "$value": "{primitive.color.dialo.800}"
+      },
+      "on-bubble-customer": {
+        "$type": "color",
+        "$value": "{primitive.color.brand.white}"
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Dialo · base y tipografía
+   Raíz: <body class="dl-root">. Superficie de marca: data-surface="brand".
+   ========================================================================== */
+
+.dl-root,
+[data-surface] {
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+}
+
+.dl-root {
+  margin: 0;
+  font-family: var(--font-brand);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+}
+
+.dl-root *, .dl-root *::before, .dl-root *::after { box-sizing: border-box; }
+.dl-root ::selection { background: var(--dialo-100); color: var(--black); }
+[data-surface="brand"] ::selection { background: var(--white); color: var(--dialo); }
+
+.dl-root :focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.dl-root img, .dl-root svg { max-width: 100%; }
+
+/* --- Escala tipográfica (brandbook §06) ---------------------------------- */
+.dl-display, .dl-h1, .dl-h2, .dl-h3, .dl-slogan {
+  margin: 0;
+  font-family: var(--font-brand);
+  color: var(--text-heading);
+  text-wrap: balance;
+}
+.dl-display { font-size: var(--type-display-size); line-height: var(--type-display-line); font-weight: 600; }
+.dl-h1      { font-size: var(--type-h1-size);      line-height: var(--type-h1-line);      font-weight: 600; }
+.dl-h2      { font-size: var(--type-h2-size);      line-height: var(--type-h2-line);      font-weight: 600; }
+.dl-h3      { font-size: 20px; line-height: 28px; font-weight: 500; }
+.dl-slogan  { font-size: 20px; line-height: 28px; font-weight: 500; }
+.dl-body    { margin: 0; font-size: 16px; line-height: 26px; font-weight: 400; max-width: var(--measure); }
+.dl-lead    { margin: 0; font-size: 18px; line-height: 30px; font-weight: 400; color: var(--text-secondary); max-width: var(--measure); }
+.dl-small   { margin: 0; font-size: 14px; line-height: 22px; font-weight: 400; }
+.dl-label   { margin: 0; font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.04em; }
+.dl-overline {
+  margin: 0; font-size: 12px; line-height: 16px; font-weight: 500;
+  letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-secondary);
+}
+.dl-data, .dl-code {
+  font-family: var(--font-mono);
+  font-size: 14px; line-height: 22px;
+  font-variant-numeric: tabular-nums;
+}
+.dl-muted { color: var(--text-muted); }
+.dl-secondary { color: var(--text-secondary); }
+
+@media (max-width: 767px) {
+  .dl-root {
+    --type-display-size: 40px; --type-display-line: 48px;
+    --type-h1-size: 32px; --type-h1-line: 40px;
+    --type-h2-size: 24px; --type-h2-line: 32px;
+  }
+}
+
+/* --- Layout -------------------------------------------------------------- */
+/* --dl-gap y --dl-min no se heredan: cada contenedor define el suyo */
+@property --dl-gap { syntax: "<length-percentage>"; inherits: false; initial-value: 16px; }
+@property --dl-min { syntax: "<length>"; inherits: false; initial-value: 260px; }
+.dl-container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: var(--space-6); }
+@media (max-width: 767px) { .dl-container { padding-inline: var(--space-4); } }
+.dl-stack { display: flex; flex-direction: column; gap: var(--dl-gap); }
+.dl-row { --dl-gap: 12px; display: flex; flex-wrap: wrap; align-items: center; gap: var(--dl-gap); }
+.dl-grid { display: grid; --dl-gap: 24px; gap: var(--dl-gap); grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--dl-min)), 1fr)); }
+.dl-divider { border: 0; border-top: 1px solid var(--border-subtle); margin: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .dl-root *, .dl-root *::before, .dl-root *::after {
+    animation-duration: 1ms !important; animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important; scroll-behavior: auto !important;
+  }
+}

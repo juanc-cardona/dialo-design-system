@@ -1,0 +1,14 @@
+<!-- @dsCard group="Contenido" height=220 -->
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>preview</title>
+<style>body{margin:0;padding:24px;min-height:100%} .pv-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center} .pv-col{display:flex;flex-direction:column;gap:16px;max-width:560px}</style>
+</head>
+<body class="dl-root">
+<div id="a" class="dl-grid" style="--dl-min:220px"></div>
+<script>
+  var D = window.Dialo, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById("a")).render(h(React.Fragment,null,h(D.Card,{eyebrow:"Commerce",title:"Toma pedidos sin ampliar el equipo"},"Dialo recomienda, arma el pedido y lo confirma con el inventario real."),h(D.Card,{eyebrow:"Payments",title:"Cobra dentro de la conversación",variant:"brand"},"Link de pago, contra entrega o crédito."),h(D.Card,{eyebrow:"Analytics",title:"Qué vende cada conversación",interactive:true},"Ventas, conversión y recompra por canal.")));
+</script>
+</body>
+</html>
